@@ -22,7 +22,7 @@ int distance;
 
 void setup() {
   //Serial Port
-  Serial.begin (9600);
+  Serial.begin (9000);
  
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
